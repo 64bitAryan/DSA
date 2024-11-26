@@ -44,8 +44,12 @@ Node *copyRandomList(Node *head) {
     // connect it to the original next;
     old_curr->next = old_curr->next->next;
 
+    // assign the next of new linked list
     new_cur->next = new_cur->next ? new_cur->next->next : nullptr;
+
+    // increment old next
     old_curr = old_curr->next;
+    // increment new next
     new_cur = new_cur->next;
   }
 
