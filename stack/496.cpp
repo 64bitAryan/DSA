@@ -3,10 +3,6 @@
 #include <iostream>
 #include <vector>
 
-/*
-By   :-: savetrees
-Used :-:
-*/
 class Solution {
 public:
   std::vector<int> nextGreaterElement(std::vector<int> &nums1,
